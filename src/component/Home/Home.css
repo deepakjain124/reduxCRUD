@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+  margin: 20px;
+}
+.box {
+  border: 1px solid rgb(196, 191, 191);
+  width: 400px;
+  height: 550px;
+  margin: auto;
+}
+/* TRANSACTIONcOMPONENT */
+
+.Total_balance {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Total_balance h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.add {
+  width: 80px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.input_section {
+  margin: auto;
+  border: 1px solid rgb(196, 191, 191);
+  width: 350px;
+  padding: 10px;
+}
+.input_section .inputs input[type="text"] {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(83, 79, 79);
+  outline: none;
+  height: 30px;
+}
+.radios label {
+  width: 300px;
+  padding-right: 30px;
+}
+.add_transaction {
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+.types {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.types .Expense,
+.Income {
+  border: 1px solid rgb(155, 147, 147);
+  padding: 10px;
+  width: 150px;
+}
+.Expense,
+.Income p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Expense h2 {
+  color: red;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Income h2 {
+  color: green;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ALL TRANSACTIONS */
+.Transction .tran_head {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+/* .search_field {
+  width: 250px;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 10px;
+} */
+.search_field input {
+  width: 240px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.list {
+  height: 200px;
+  /* overflow: scroll; */
+}
+.kharcha {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-top: 200px;
+  border-radius: 5px;
+  width: 320px;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 35px;
+  /* border-right: 5px solid green; */
+}
